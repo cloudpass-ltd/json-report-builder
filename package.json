@@ -1,14 +1,14 @@
 {
   "name": "@cloudpass-ltd/json-report-builder",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Build/transform JSON files into standard JSON report objects",
   "main": "./src/json-report-builder.js",
   "scripts": {
     "lint": "eslint src/*.js spec/*.js",
     "bundle": "webpack && webpack --config webpack-prod.config.js",
     "prettier": "prettier --write src/**/*.js",
-    "publish-please": "publish-please",
-    "prepublishOnly": "publish-please guard"
+    "publish-please": "publish-please --access=public",
+    "prepublishOnly": "publish-please guard --access=public"
   },
   "repository": {
     "type": "git",
