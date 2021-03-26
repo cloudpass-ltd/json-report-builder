@@ -1,6 +1,6 @@
 {
   "name": "@cloudpass-ltd/json-report-builder",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Build/transform JSON files into standard JSON report objects",
   "main": "./src/json-report-builder.js",
   "scripts": {
